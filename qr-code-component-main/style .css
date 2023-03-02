@@ -1,0 +1,55 @@
+--*   *{
+    box-sizing: border-box;
+ } 
+ body{
+    background-color:hsl(212, 45%, 89%) ;
+    margin-top: 175px;
+    display: grid;
+    justify-content:  center;
+    /* justify-items:  center; */
+    /* align-content: center; */
+ }
+ 
+ .container{
+   background-color:white;
+   height: 600px;
+   width: 400px;
+   display: grid;
+   justify-content: space-around;
+   justify-items:  center;
+   align-items: center;
+   border-radius: 20px;
+ } 
+ 
+ #img{
+   height: 330px;
+   display: grid;
+   align-content: center;
+   margin-top: 30px;
+ }
+
+ .runaway{
+  font-family: 'Outfit', sans-serif;
+  display: grid;
+  justify-items:  center;
+ font-size: 28px; 
+ color:hsl(218, 44%, 22%) ;  
+ }
+.remain{
+  
+  display: grid;
+  justify-items:  center;
+  font-family: 'Outfit', sans-serif;
+color: hsl(220, 15%, 55%) ; 
+}
+/* media queries */
+@media screen and (max-width: 1440px){
+
+.container{
+width:375px;
+}
+
+} 
+  
+
+
